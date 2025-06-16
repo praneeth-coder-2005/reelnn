@@ -414,7 +414,7 @@ const TVShowEpisodes: React.FC<TVShowEpisodesProps & { showId: string }> = ({ se
     );
   }
 
-  const seasonNumbers = seasons.map(season => season.season_number);
+  const seasonNumbers = seasons.map(season => season.season_number).sort((a, b) => a - b);
   
 
   const currentSeason = seasonNumbers[currentSeasonIndex] || seasonNumbers[0] || 1;
