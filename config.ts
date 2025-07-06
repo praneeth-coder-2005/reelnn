@@ -1,6 +1,6 @@
 // SITE CONFIG
 export const NEXT_PUBLIC_SITE_NAME =
-  process.env.NEXT_PUBLIC_SITE_NAME || "reelnn";
+  process.env.NEXT_PUBLIC_SITE_NAME || "irandomguy";
 
 export const NEXT_PUBLIC_FOOTER_DESC =
   process.env.NEXT_PUBLIC_FOOTER_DESC ||
@@ -15,7 +15,7 @@ export const NEXT_PUBLIC_WHATSAPP_CONTACT =
 export const NEXT_PUBLIC_INSTAGRAM_CONTACT =
   process.env.NEXT_PUBLIC_INSTAGRAM_CONTACT || "";
 
-export const SITE_SECRET = process.env.SITE_SECRET || "your_secret_key";
+export const SITE_SECRET = process.env.SITE_SECRET || "#5213680099Ac";
 
 // Backend API
 export const BACKEND_URL = process.env.BACKEND_URL || "http://0.0.0.0:6519";
@@ -23,7 +23,7 @@ export const BACKEND_URL = process.env.BACKEND_URL || "http://0.0.0.0:6519";
 
 // Telegram
 export const NEXT_PUBLIC_TELEGRAM_BOT_NAME =
-  process.env.NEXT_PUBLIC_TELEGRAM_BOT_NAME || "reelnnbot";
+  process.env.NEXT_PUBLIC_TELEGRAM_BOT_NAME || "irandomguy_site1bot";
 
 
 // Shortener API
